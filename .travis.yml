@@ -4,9 +4,9 @@ branches:
 env:
   global:
     secure: | # CODECLIMATE_REPO_TOKEN
-      mWbGKP4AUdfjjK0Vx8UqZVA/5ERfXxQ0sz+asOriGq8GkMmIh9fkpV1cto5I
-      PD4AOgJiYBh17XZ1igxm8Khwhw39Jf2QMGSW+WuMI6h94CUdwHxe4IN+0mkm
-      x7I/BnsJ8kRSDYNxxH3XM6ktGBICaAnWrvAkeOUV7enhYqN6e+s=
+      EEoiWSHrAnv1VAlN6msYZPWcdKohINin6vmghWn54uvNcowgLwIr/0S5+Cx7
+      YqY/iYA0OzELX5j5pTgMHLroG4kkbgTnBQe09pFGxhoqA0WOp/uZkyX6dFro
+      yatmOosa1UUiw4aZogfjv2KdP18oILxV3d+lIfqZgUb7o9bTzbw=
 language: ruby
 matrix:
   allow_failures:

@@ -1,29 +1,37 @@
-# FairDiceRoll
+# FairDiceRoll 🎲
 
-TODO: Write a gem description
+Finally. Truly random numbers in Ruby.
+
+[![Gem Version](https://img.shields.io/gem/v/fair_dice_roll.svg?style=flat)](http://rubygems.org/gems/fair_dice_roll)
+[![Build Status](https://img.shields.io/travis/laserlemon/fair_dice_roll/master.svg?style=flat)](https://travis-ci.org/laserlemon/fair_dice_roll)
+[![Code Climate](https://img.shields.io/codeclimate/github/laserlemon/fair_dice_roll.svg?style=flat)](https://codeclimate.com/github/laserlemon/fair_dice_roll)
+[![Code Coverage](http://img.shields.io/codeclimate/coverage/github/laserlemon/fair_dice_roll.svg?style=flat)](https://codeclimate.com/github/laserlemon/fair_dice_roll)
+[![Dependency Status](https://img.shields.io/gemnasium/laserlemon/fair_dice_roll.svg?style=flat)](https://gemnasium.com/laserlemon/fair_dice_roll)
 
 ## Installation
 
-Add this line to your application's Gemfile:
+1. Add to your application's Gemfile:
 
-    gem 'fair_dice_roll'
+   ```ruby
+   gem "fair_dice_roll"
+   ```
 
-And then execute:
+2. Execute:
 
-    $ bundle
+   ```
+   $ bundle install
+   ```
 
-Or install it yourself as:
-
-    $ gem install fair_dice_roll
-
-## Usage
-
-TODO: Write usage instructions here
+3. Bask in the glory of ultimate randomness!
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/fair_dice_roll/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+1. [Fork](https://github.com/laserlemon/fair_dice_roll/fork) it.
+2. Roll a die… fairly.
+3. [Record](https://github.com/laserlemon/fair_dice_roll/blob/master/lib/fair_dice_roll.rb#L4) your result.
+4. Submit a [pull request](https://github.com/laserlemon/fair_dice_roll/pulls).
+5. Please include photographic [evidence](http://imgur.com/XT16hzE) of your roll.
+
+## Thanks
+
+Thank you to [XKCD](http://xkcd.com) for the [inspiration](http://xkcd.com/221/).

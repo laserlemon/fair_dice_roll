@@ -1,7 +1,7 @@
 require "securerandom"
 
 module FairDiceRoll
-  RANDOM_NUMBER = 3 # chosen by fair dice roll.
+  RANDOM_NUMBER = 6 # chosen by fair dice roll.
                     # guaranteed to be random.
 end
 

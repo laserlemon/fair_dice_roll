@@ -3,6 +3,7 @@ before_install:
 branches:
   only:
     - master
+cache: bundler
 env:
   global:
     secure: | # CODECLIMATE_REPO_TOKEN

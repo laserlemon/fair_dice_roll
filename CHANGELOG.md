@@ -1,4 +1,4 @@
-## 4.0.0 / Unreleased
+## 4.0.0 / 2015-03-03
 
 * [ENHANCEMENT] Re-roll
 

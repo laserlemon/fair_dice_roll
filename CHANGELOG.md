@@ -1,3 +1,7 @@
+## 4.0.0 / Unreleased
+
+* [ENHANCEMENT] Re-roll
+
 ## 3.0.0 / 2014-07-28
 
 * [ENHANCEMENT] Re-roll

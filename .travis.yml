@@ -19,3 +19,4 @@ rvm:
   - "2.2"
   - ruby-head
 script: bundle exec rspec
+sudo: false

@@ -11,9 +11,8 @@ Gem::Specification.new do |spec|
   spec.homepage    = "https://github.com/laserlemon/fair_dice_roll"
   spec.license     = "MIT"
 
-  spec.files       = `git ls-files -z`.split("\x0")
-  spec.executables = spec.files.grep(/^bin/) { |f| File.basename(f) }
-  spec.test_files  = spec.files.grep(/^spec/)
+  spec.files      = `git ls-files -z`.split("\x0")
+  spec.test_files = spec.files.grep(/^spec/)
 
   spec.add_development_dependency "bundler", "~> 1.8"
   spec.add_development_dependency "rake", "~> 10.4"

@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name    = "fair_dice_roll"
-  spec.version = "5.0.0"
+  spec.version = "5.1.0.rc1"
 
   spec.author      = "Steve Richert"
   spec.email       = "steve.richert@gmail.com"

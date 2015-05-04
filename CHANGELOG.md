@@ -1,3 +1,7 @@
+## 5.1.0.rc1 / 2015-05-04
+
+* [ENHANCEMENT] Re-roll
+
 ## 5.0.0 / 2015-03-31
 
 * [ENHANCEMENT] Re-roll

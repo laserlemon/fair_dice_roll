@@ -1,7 +1,7 @@
-describe FairDiceRoll do
+RSpec.describe FairDiceRoll do
   let(:random_number) { FairDiceRoll::RANDOM_NUMBER }
 
-  describe "#rand" do
+  describe "rand" do
     it "is guaranteed to be random" do
       expect(rand).to eq(random_number)
       expect(rand(3)).to eq(random_number)
@@ -9,7 +9,7 @@ describe FairDiceRoll do
   end
 
   describe Kernel do
-    describe "#rand" do
+    describe ".rand" do
       it "is guaranteed to be random" do
         expect(Kernel.rand).to eq(random_number)
         expect(Kernel.rand(3)).to eq(random_number)
@@ -35,7 +35,7 @@ describe FairDiceRoll do
   end
 
   describe SecureRandom do
-    describe "#random_number" do
+    describe ".random_number" do
       it "is guaranteed to be random" do
         expect(SecureRandom.random_number).to eq(random_number)
         expect(SecureRandom.random_number(3)).to eq(random_number)

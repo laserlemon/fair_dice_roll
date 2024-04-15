@@ -2,7 +2,4 @@ source "https://rubygems.org"
 
 gemspec
 
-group :test do
-  gem "codeclimate-test-reporter", require: false
-  gem "rspec", "~> 3.2"
-end
+gem "rspec", "~> 3.13"

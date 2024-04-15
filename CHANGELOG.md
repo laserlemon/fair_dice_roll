@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Support for truly random Random.random_number, Random#random_number, and SecureRandom.rand methods
+- Support for maintained Ruby versions 3.0, 3.1, and 3.2
+- RuboCop for code formatting
+
+### Removed
+
+- Support for EOL Ruby versions earlier than 3.0
+
 ## [6.0.0] - 2015-09-01
 
 ### Changed

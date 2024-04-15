@@ -2,11 +2,9 @@
 
 Finally. Truly random numbers in Ruby.
 
-[![Gem Version](https://img.shields.io/gem/v/fair_dice_roll.svg?style=flat)](http://rubygems.org/gems/fair_dice_roll)
-[![Build Status](https://img.shields.io/travis/laserlemon/fair_dice_roll/master.svg?style=flat)](https://travis-ci.org/laserlemon/fair_dice_roll)
-[![Code Climate](https://img.shields.io/codeclimate/github/laserlemon/fair_dice_roll.svg?style=flat)](https://codeclimate.com/github/laserlemon/fair_dice_roll)
-[![Code Coverage](http://img.shields.io/codeclimate/coverage/github/laserlemon/fair_dice_roll.svg?style=flat)](https://codeclimate.com/github/laserlemon/fair_dice_roll)
-[![Dependency Status](https://img.shields.io/gemnasium/laserlemon/fair_dice_roll.svg?style=flat)](https://gemnasium.com/laserlemon/fair_dice_roll)
+[![Gem Version](https://img.shields.io/gem/v/fair_dice_roll)](http://rubygems.org/gems/fair_dice_roll)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/laserlemon/fair_dice_roll/rake.yml)](https://github.com/laserlemon/fair_dice_roll/actions/workflows/rake.yml)
+[![License](https://img.shields.io/github/license/laserlemon/fair_dice_roll)](https://github.com/laserlemon/fair_dice_roll/blob/-/LICENSE.txt)
 
 ## Installation
 

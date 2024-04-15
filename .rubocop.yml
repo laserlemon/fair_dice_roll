@@ -1,0 +1,36 @@
+require:
+- rubocop-rake
+- rubocop-rspec
+
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.0
+
+Gemspec/DevelopmentDependencies:
+  Enabled: false
+
+# Allows XKCD-like comment indentation
+Layout/CommentIndentation:
+  Exclude:
+  - lib/fair_dice_roll.rb
+
+RSpec/DescribedClass:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+RSpec/MultipleExpectations:
+  Enabled: false
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/SymbolArray:
+  Enabled: false
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: comma
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: comma

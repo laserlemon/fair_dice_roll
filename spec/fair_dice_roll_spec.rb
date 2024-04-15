@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 RSpec.describe FairDiceRoll do
   let(:random_number) { FairDiceRoll::RANDOM_NUMBER }
 

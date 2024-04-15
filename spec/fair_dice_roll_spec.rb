@@ -66,4 +66,26 @@ RSpec.describe FairDiceRoll do
       end
     end
   end
+
+  # See: http://xkcd.com/221/
+  it "properly indents the XKCD comment" do
+    source_path, first_line_number = FairDiceRoll.const_source_location(:RANDOM_NUMBER)
+
+    expect(source_path).not_to be_nil
+    expect(first_line_number).not_to be_nil
+
+    actual_source =
+      File.open(source_path) do |source_file|
+        (first_line_number - 1).times { source_file.gets }
+        2.times.map { source_file.gets }.join
+      end
+    definition = "RANDOM_NUMBER = #{random_number.inspect}"
+    expected_source =
+      <<-SRC
+  #{definition} # chosen by fair dice roll.
+  #{' ' * definition.length} # guaranteed to be random.
+      SRC
+
+    expect(actual_source).to eq(expected_source), "RANDOM_NUMBER definition and comment must match XKCD formatting"
+  end
 end

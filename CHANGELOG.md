@@ -7,11 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [7.0.0] - 2024-04-15
+
 ### Added
 
 - Support for truly random Random.random_number, Random#random_number, and SecureRandom.rand methods
 - Support for maintained Ruby versions 3.0, 3.1, and 3.2
 - RuboCop for code formatting
+- Test to assert proper XKCD code formatting
+
+### Changed
+
+- Re-roll
 
 ### Removed
 
@@ -65,7 +72,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release!
 
-[unreleased]: https://github.com/laserlemon/fair_dice_roll/compare/v6.0.0...HEAD
+[unreleased]: https://github.com/laserlemon/fair_dice_roll/compare/v7.0.0...HEAD
+[7.0.0]: https://github.com/laserlemon/fair_dice_roll/compare/v6.0.0...v7.0.0
 [6.0.0]: https://github.com/laserlemon/fair_dice_roll/compare/v5.1.0...v6.0.0
 [5.1.0]: https://github.com/laserlemon/fair_dice_roll/compare/v5.1.0.rc1...v5.1.0
 [5.1.0.rc1]: https://github.com/laserlemon/fair_dice_roll/compare/v5.0.0...v5.1.0.rc1

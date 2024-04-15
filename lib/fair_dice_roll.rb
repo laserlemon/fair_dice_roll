@@ -20,12 +20,24 @@ class Random
     FairDiceRoll::RANDOM_NUMBER
   end
 
+  def self.random_number(*)
+    FairDiceRoll::RANDOM_NUMBER
+  end
+
   def rand(*)
+    FairDiceRoll::RANDOM_NUMBER
+  end
+
+  def random_number(*)
     FairDiceRoll::RANDOM_NUMBER
   end
 end
 
 module SecureRandom
+  def self.rand(*)
+    FairDiceRoll::RANDOM_NUMBER
+  end
+
   def self.random_number(*)
     FairDiceRoll::RANDOM_NUMBER
   end

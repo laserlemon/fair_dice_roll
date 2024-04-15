@@ -25,6 +25,13 @@ RSpec.describe FairDiceRoll do
       end
     end
 
+    describe ".random_number" do
+      it "is guaranteed to be random" do
+        expect(Random.random_number).to eq(random_number)
+        expect(Random.random_number(3)).to eq(random_number)
+      end
+    end
+
     describe "#rand" do
       it "is guaranteed to be random" do
         random = Random.new
@@ -32,9 +39,24 @@ RSpec.describe FairDiceRoll do
         expect(random.rand(3)).to eq(random_number)
       end
     end
+
+    describe "#random_number" do
+      it "is guaranteed to be random" do
+        random = Random.new
+        expect(random.random_number).to eq(random_number)
+        expect(random.random_number(3)).to eq(random_number)
+      end
+    end
   end
 
   describe SecureRandom do
+    describe ".rand" do
+      it "is guaranteed to be random" do
+        expect(SecureRandom.rand).to eq(random_number)
+        expect(SecureRandom.rand(3)).to eq(random_number)
+      end
+    end
+
     describe ".random_number" do
       it "is guaranteed to be random" do
         expect(SecureRandom.random_number).to eq(random_number)

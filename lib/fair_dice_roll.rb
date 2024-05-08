@@ -4,7 +4,7 @@ require "securerandom"
 
 module FairDiceRoll
   RANDOM_NUMBER = 1 # chosen by fair dice roll.
-                     # guaranteed to be random.
+                    # guaranteed to be random.
 end
 
 module Kernel

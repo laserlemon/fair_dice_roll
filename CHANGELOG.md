@@ -13,6 +13,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Re-roll
 
+### Removed
+
+- Support for EOL Ruby versions earlier than 3.2
+
 ## [9.0.0] - 2024-07-08
 
 ### Changed

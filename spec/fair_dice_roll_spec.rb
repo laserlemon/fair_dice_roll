@@ -3,6 +3,13 @@
 RSpec.describe FairDiceRoll do
   let(:random_number) { FairDiceRoll::RANDOM_NUMBER }
 
+  describe "fair_dice_roll.gemspec" do
+    it "is valid" do
+      spec = Gem::Specification.load('fair_dice_roll.gemspec')
+      expect { spec.validate }.not_to output.to_stderr
+    end
+  end
+
   describe "rand" do
     it "is guaranteed to be random" do
       expect(rand).to eq(random_number)

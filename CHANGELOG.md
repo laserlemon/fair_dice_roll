@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [10.0.0] - 2025-03-11
+
+### Added
+
+- Support for maintained Ruby versions 3.3 and 3.4
+
+### Changed
+
+- Re-roll
+
+### Removed
+
+- Support for EOL Ruby versions earlier than 3.2
+
 ## [9.0.0] - 2024-07-08
 
 ### Changed
@@ -90,7 +104,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release!
 
-[unreleased]: https://github.com/laserlemon/fair_dice_roll/compare/v9.0.0...HEAD
+[unreleased]: https://github.com/laserlemon/fair_dice_roll/compare/v10.0.0...HEAD
+[10.0.0]: https://github.com/laserlemon/fair_dice_roll/compare/v9.0.0...v10.0.0
 [9.0.0]: https://github.com/laserlemon/fair_dice_roll/compare/v8.0.0...v9.0.0
 [8.0.0]: https://github.com/laserlemon/fair_dice_roll/compare/v7.0.1...v8.0.0
 [7.0.1]: https://github.com/laserlemon/fair_dice_roll/compare/v7.0.0...v7.0.1

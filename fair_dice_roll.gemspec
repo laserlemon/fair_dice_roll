@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
     "source_code_uri" => "https://github.com/laserlemon/fair_dice_roll",
   }
 
-  spec.required_ruby_version = ">= 3.0.0"
+  spec.required_ruby_version = ">= 3.2"
   spec.add_development_dependency "bundler", ">= 2"
   spec.add_development_dependency "rake", ">= 13"
 
@@ -35,6 +35,7 @@ Gem::Specification.new do |spec|
 
   spec.extra_rdoc_files = [
     "CHANGELOG.md",
+    "CODE_OF_CONDUCT.md",
     "README.md",
   ]
 end

@@ -35,6 +35,7 @@ Gem::Specification.new do |spec|
 
   spec.extra_rdoc_files = [
     "CHANGELOG.md",
+    "CODE_OF_CONDUCT.md",
     "README.md",
   ]
 end

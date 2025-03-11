@@ -3,8 +3,8 @@
 require "securerandom"
 
 module FairDiceRoll
-  RANDOM_NUMBER = 6 # chosen by fair dice roll.
-                    # guaranteed to be random.
+  RANDOM_NUMBER = 56 # chosen by fair dice roll.
+                     # guaranteed to be random.
 end
 
 module Kernel

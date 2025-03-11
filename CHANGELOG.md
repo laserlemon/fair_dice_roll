@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [10.0.0] - 2025-03-11
 
+### Added
+
+- Support for maintained Ruby versions 3.3 and 3.4
+
 ### Changed
 
 - Re-roll

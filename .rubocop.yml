@@ -4,7 +4,7 @@ require:
 
 AllCops:
   NewCops: enable
-  TargetRubyVersion: 3.0
+  TargetRubyVersion: 3.2
 
 Gemspec/DevelopmentDependencies:
   Enabled: false

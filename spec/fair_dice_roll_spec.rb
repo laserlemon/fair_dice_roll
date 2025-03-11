@@ -5,7 +5,7 @@ RSpec.describe FairDiceRoll do
 
   describe "fair_dice_roll.gemspec" do
     it "is valid" do
-      spec = Gem::Specification.load('fair_dice_roll.gemspec')
+      spec = Gem::Specification.load("fair_dice_roll.gemspec")
       expect { spec.validate }.not_to output.to_stderr
     end
   end

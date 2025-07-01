@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [11.0.0]
+
 ### Changed
 
 - Re-roll
@@ -108,7 +110,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release!
 
-[unreleased]: https://github.com/laserlemon/fair_dice_roll/compare/v10.0.0...HEAD
+[unreleased]: https://github.com/laserlemon/fair_dice_roll/compare/v11.0.0...HEAD
+[11.0.0]: https://github.com/laserlemon/fair_dice_roll/compare/v10.0.0...v11.0.0
 [10.0.0]: https://github.com/laserlemon/fair_dice_roll/compare/v9.0.0...v10.0.0
 [9.0.0]: https://github.com/laserlemon/fair_dice_roll/compare/v8.0.0...v9.0.0
 [8.0.0]: https://github.com/laserlemon/fair_dice_roll/compare/v7.0.1...v8.0.0
